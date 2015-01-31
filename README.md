@@ -6,14 +6,14 @@ This is an API for adding single sign on between PHP apps on the same host (or a
 with a shared data backend). All it does is set up a framework for passing authentication data between
 two (or more!) systems.
 
+### Getting Started
+
 It's up to you to figure out how your authentication scheme must work and what the rules are. E.g.
 
 * What parts of the sites can be accessed without logging in?
 * Where is the single login page, if there is only one?
 * What happens if a user's session expires in any of the sites?
 * What happens if site A reads auth data from site B, but it's too old?
-
-The `examples.php` file has some example code that might be helpful getting started.
 
 On each non-Elgg site you want to use
 this, you must create a [`UserlandSession\Session`](https://github.com/mrclay/UserlandSession#userlandsession) object
@@ -34,3 +34,7 @@ function myPlugin_make_session() {
     		->build();
 }
 ```
+
+### Example Code
+
+`examples.php` might give you ideas of what you must do both within Elgg and in the other system(s).

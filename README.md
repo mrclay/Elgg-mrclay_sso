@@ -37,4 +37,4 @@ function myPlugin_make_session() {
 
 ### Example Code
 
-`examples.php` might give you ideas of what you must do both within Elgg and in the other system(s).
+[`examples.php`](https://github.com/mrclay/Elgg-mrclay_sso/blob/master/examples.php) might give you ideas of what you must do both within Elgg and in the other system(s).

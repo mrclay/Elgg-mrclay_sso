@@ -1,0 +1,25 @@
+{
+  "name": "mrclay/elgg_sso",
+  "type": "elgg-plugin",
+  "description": "An API for adding single sign on between PHP apps on the same host",
+  "homepage": "http://mrclay.org/",
+  "keywords": [
+    "elgg", "plugin"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Steve Clay",
+      "email": "steve@mrclay.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "mrclay/userland-session": "~3.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "classes/"
+    }
+  }
+}
